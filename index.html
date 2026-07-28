@@ -3,64 +3,475 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wisco Consulting</title>
+  <title>Wisdom Collectives LLP — SAP Security, GRC & Cloud Consulting</title>
+  <meta name="description" content="Wisdom Collectives LLP delivers Big 4 calibre SAP Security, GRC, Controls & Amazon Connect consulting at highly competitive rates. Founded by ex-Big 4 professionals.">
+  <meta name="keywords" content="SAP Security, SAP GRC, Controls, Compliance, Amazon Connect, Cloud Consulting, Big 4, India">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="upload/wisco-logo-transparent.png">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/jpeg" href="upload/Wisco - Final Logo.jpg">
 </head>
 <body>
-  <header class="hero">
-    <h1>Wisdom Collectives LLP</h1>
-    <p>Big 4 Expertise, Mid-Market Pricing</p>
-    <a href="#contact" class="cta">Get Started</a>
-  </header>
-  <section class="services">
-    <h2>Our Services</h2>
-    <div class="service-list">
-      <div class="service">
-        <h3>SAP Security Consulting</h3>
-        <p>We design and implement robust role-based access controls, Segregation of Duties frameworks, and user provisioning mechanisms to safeguard your SAP environment from unauthorized access and cyber threats, ensuring compliance with industry standards</p>
-      </div>
-      <div class="service">
-        <h3>SAP GRC</h3>
-        <p>Our experts streamline you access governance and management process, Internal control management, and risk and policy management leveraging SAP GRC tool, reducing manual effort while maintaining real-time visibility into risks, controls, and regulatory adherence</p>
-      </div>
-      <div class="service">
-        <h3>SAP Controls</h3>
-        <p>We help you design a robust internal control framework tailored to your SAP environment, ensuring compliance with SOX, GDPR, and industry-specific regulations.</p>
-      </div>
-      <div class="service">
-        <h3>Websites & Web Applications</h3>
-        <p>We design and develop high-performance websites and web applications that align with your business goals—from sleek marketing sites to complex SaaS platforms. Leveraging modern frameworks like React, Angular, and Node.js, we ensure scalability, security, and seamless user experiences.</p>
-      </div>
-      <div class="service">
-        <h3>Cloud Services</h3>
-        <p>From AWS, Azure, and Google Cloud, we architect secure, cost-efficient cloud environments tailored to your workload. Specializing in lift-and-shift migrations, hybrid cloud setups, and Kubernetes orchestration, we ensure compliance with ISO 27001/SOC 2.</p>
-      </div>
-      <div class="service">
-        <h3>Mobile Applications</h3>
-        <p>We build iOS and Android apps (React Native/Flutter) with a focus on intuitive UX, offline functionality, and backend integration. Whether it’s consumer-facing apps or internal productivity tools, we deliver robust solutions.</p>
-      </div>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- NAVIGATION                              -->
+  <!-- ═══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="Wisdom Collectives Home">
+        <img src="upload/wisco-logo-transparent.png" alt="Wisdom Collectives Logo" width="120" height="50">
+        <span class="nav-logo-text">WisCo</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
-  </section>
-  <section class="about">
-    <h2>About Us</h2>
-    <p>Wisdom Collectives LLP (Wisco) was founded by ex-Big 4 professionals who believe top-tier consulting shouldn’t come with top-tier overheads. We combine proven frameworks with agile delivery to help startups and enterprises optimize costs without compromising quality.</p>
-  </section>
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <div class="contact-details">
-      <p><strong>Email:</strong> <a href="mailto:info@wisco.co.in">info@wisco.co.in</a></p>
-      <p><strong>Registered Address:</strong><br>
-      No. 4/461, 2nd Floor, Suite No.1517 Valamkottil Towers<br>
-      Judgemukku, Kakkanad, Kochi - 682021
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- HERO SECTION                            -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="pulse-dot"></span>
+        Trusted Partners in Enterprise Excellence
+      </div>
+
+      <h1 class="reveal reveal-delay-1">
+        Big 4 Calibre Consulting,<br>
+        <span class="gradient-text">Competitive Pricing</span>
+      </h1>
+
+      <p class="hero-tagline reveal reveal-delay-2">
+        Delivering world-class SAP Security, GRC, Controls & Cloud services to enterprises across industries — powered by ex-Big 4 professionals with 15+ years of deep domain expertise.
       </p>
+
+      <div class="hero-actions reveal reveal-delay-3">
+        <a href="#contact" class="btn-primary">Start a Conversation →</a>
+        <a href="#services" class="btn-secondary">Explore Services</a>
+      </div>
+
+      <div class="hero-stats reveal reveal-delay-4">
+        <div class="hero-stat">
+          <div class="hero-stat-value" data-count="15" data-suffix="+">0+</div>
+          <div class="hero-stat-label">Years Leadership Experience</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" data-count="4" data-suffix="">0</div>
+          <div class="hero-stat-label">Core Service Lines</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" data-count="100" data-suffix="%" data-prefix="">0%</div>
+          <div class="hero-stat-label">Big 4 Alumni Leadership</div>
+        </div>
+      </div>
     </div>
   </section>
-  <footer>
-    <div class="footer-content">
-      <p>&copy; 2025 Wisdom Collectives LLP. All rights reserved.</p>
-      <img src="upload/Wisco - Final Logo.jpg" alt="Wisdom Collectives Logo" class="footer-logo" />
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- ABOUT SECTION                           -->
+  <!-- ═══════════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <div>
+            <span class="section-label reveal">Who We Are</span>
+            <h2 class="section-title reveal reveal-delay-1">About Wisdom Collectives LLP</h2>
+          </div>
+
+          <p class="about-text reveal reveal-delay-2">
+            Wisdom Collectives LLP is a next-generation consulting firm founded by seasoned professionals with rich experience from Big 4 and global advisory organisations. Registered under the Indian Companies Act and operating globally, we deliver high-impact SAP Security, GRC, Controls and Cloud services to enterprises across industries.
+          </p>
+
+          <p class="about-text reveal reveal-delay-2">
+            <strong>Our Mission:</strong> To be the most trusted consulting partner for enterprises seeking to secure, optimise and transform their landscape — combining deep technical expertise with pragmatic, cost-effective delivery.
+          </p>
+
+          <div class="about-quote reveal reveal-delay-3">
+            <p>"Great insights and transformative results should not come with excessive price tags. We bring Big 4 calibre at a fraction of the cost."</p>
+            <cite>— Jincy George, Director, Wisdom Collectives LLP</cite>
+          </div>
+        </div>
+
+        <div class="about-highlights">
+          <div class="about-highlight-item reveal">
+            <div class="about-highlight-icon">🌍</div>
+            <div class="about-highlight-text">
+              <h4>Global Footprint</h4>
+              <p>Remote-first, worldwide delivery</p>
+            </div>
+          </div>
+
+          <div class="about-highlight-item reveal reveal-delay-1">
+            <div class="about-highlight-icon">🎓</div>
+            <div class="about-highlight-text">
+              <h4>Big 4 Alumni</h4>
+              <p>Leadership from top-tier advisory firms</p>
+            </div>
+          </div>
+
+          <div class="about-highlight-item reveal reveal-delay-2">
+            <div class="about-highlight-icon">💡</div>
+            <div class="about-highlight-text">
+              <h4>Deep Specialists</h4>
+              <p>SAP, GRC, Controls & Cloud practitioners</p>
+            </div>
+          </div>
+
+          <div class="about-highlight-item reveal reveal-delay-3">
+            <div class="about-highlight-icon">⚡</div>
+            <div class="about-highlight-text">
+              <h4>Competitive Rates</h4>
+              <p>World-class quality, accessible pricing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- SERVICE PORTFOLIO                       -->
+  <!-- ═══════════════════════════════════════ -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Service Portfolio</span>
+        <h2 class="section-title reveal reveal-delay-1">End-to-End Enterprise Solutions</h2>
+        <p class="section-subtitle reveal reveal-delay-2">Four specialised service lines covering security, governance, compliance, and cloud contact centre excellence.</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="services-grid">
+        <!-- SAP Security -->
+        <a href="sap-security.html" class="service-card reveal">
+          <span class="service-icon">🔐</span>
+          <h3>SAP Security</h3>
+          <ul>
+            <li>Framework Design & Implementation</li>
+            <li>Role Design & SoD Analysis</li>
+            <li>ECC → S/4HANA Migration</li>
+            <li>Fiori Access Management</li>
+            <li>User Lifecycle Management</li>
+            <li>Security Assessments & Audits</li>
+            <li>Cloud App Security (BTP, SF, Ariba, etc.)</li>
+          </ul>
+          <span class="card-link-indicator">Learn More →</span>
+        </a>
+
+        <!-- SAP GRC -->
+        <a href="sap-grc.html" class="service-card reveal reveal-delay-1">
+          <span class="service-icon">⚖️</span>
+          <h3>SAP GRC, IAG, RAM</h3>
+          <ul>
+            <li>Access Control (GRC AC)</li>
+            <li>Process Control (GRC PC)</li>
+            <li>Risk Management (GRC RM)</li>
+            <li>Audit Management</li>
+            <li>Firefighter / EAM Setup</li>
+            <li>SoD Ruleset Development</li>
+            <li>GRC Upgrades (GRC 2026)</li>
+            <li>IAG and RAM Implementation</li>
+          </ul>
+          <span class="card-link-indicator">Learn More →</span>
+        </a>
+
+        <!-- Controls & Compliance -->
+        <a href="controls-compliance.html" class="service-card reveal reveal-delay-2">
+          <span class="service-icon">📋</span>
+          <h3>Controls & Compliance</h3>
+          <ul>
+            <li>Risk & Control Matrix (RCM)</li>
+            <li>Control Framework Design</li>
+            <li>Control Testing & Validation</li>
+            <li>2nd Line Risk Function Support</li>
+            <li>3rd Line Internal Audit</li>
+            <li>Remediation & Mitigation</li>
+          </ul>
+          <span class="card-link-indicator">Learn More →</span>
+        </a>
+
+        <!-- Amazon Connect -->
+        <a href="amazon-connect.html" class="service-card reveal reveal-delay-3">
+          <span class="service-icon">☁️</span>
+          <h3>Amazon Connect</h3>
+          <ul>
+            <li>Contact Centre Implementation</li>
+            <li>IVR & Contact Flow Design</li>
+            <li>CRM Integration (Salesforce, ITSM)</li>
+            <li>AI/ML: Contact Lens & Lex</li>
+            <li>24×7 Managed Operations</li>
+            <li>FinOps & Cost Optimisation</li>
+          </ul>
+          <span class="card-link-indicator">Learn More →</span>
+        </a>
+      </div>
+
+      <div class="service-note reveal">
+        All service lines are offered independently as Implementation, AMS / Managed Services and Upgrade engagements.
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- WHY CHOOSE US                           -->
+  <!-- ═══════════════════════════════════════ -->
+  <section id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Why Wisdom Collectives</span>
+        <h2 class="section-title reveal reveal-delay-1">What Sets Us Apart</h2>
+        <p class="section-subtitle reveal reveal-delay-2">Practitioners, not theorists — we combine deep domain expertise with cost-competitive delivery and a full-lifecycle partnership approach.</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="why-grid">
+        <!-- Deep Domain Expertise -->
+        <div class="why-card reveal">
+          <div class="why-card-icon">🔬</div>
+          <h3>Deep Domain Expertise</h3>
+          <p class="card-tagline">Practitioners, Not Theorists</p>
+          <ul>
+            <li>Leadership with 15+ years at Big 4 & global firms</li>
+            <li>Hands-on specialists across SAP, GRC & Cloud</li>
+            <li>Industry-tested methodologies & frameworks</li>
+            <li>End-to-end: strategy → implementation → operations</li>
+            <li>Rapid onboarding — minimal ramp-up for clients</li>
+            <li>Continuous upskilling across evolving platforms</li>
+          </ul>
+        </div>
+
+        <!-- Cost-Competitive Delivery -->
+        <div class="why-card reveal reveal-delay-1">
+          <div class="why-card-icon">💰</div>
+          <h3>Cost-Competitive Delivery</h3>
+          <p class="card-tagline">Big 4 Quality, Boutique Pricing</p>
+          <ul>
+            <li>Significant saving vs. global SI or Big 4 firms</li>
+            <li>Flexible: Fixed Price / T&M / Managed Services</li>
+            <li>India-based delivery with offshore efficiency</li>
+            <li>Transparent pricing — no hidden overheads</li>
+            <li>Milestone-based billing & clear deliverables</li>
+            <li>Scalable model — ramp up or down on demand</li>
+          </ul>
+        </div>
+
+        <!-- Full-Lifecycle Partnership -->
+        <div class="why-card reveal reveal-delay-2">
+          <div class="why-card-icon">🔄</div>
+          <h3>Full-Lifecycle Partnership</h3>
+          <p class="card-tagline">From Advisory to Managed Operations</p>
+          <ul>
+            <li>Implementation, AMS & upgrade services</li>
+            <li>Managed services with defined SLAs & reporting</li>
+            <li>Ongoing advisory and compliance assurance</li>
+            <li>Proactive risk identification & remediation</li>
+            <li>Dedicated account management & weekly cadence</li>
+            <li>Knowledge transfer & documentation included</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- ENGAGEMENT MODEL                        -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="service-detail" id="engagement">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Engagement Model</span>
+        <h2 class="section-title reveal reveal-delay-1">Flexible Ways to Work Together</h2>
+        <p class="section-subtitle reveal reveal-delay-2">Choose the engagement model that best fits your project scope, timeline, and budget — or combine models across service lines.</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="engagement-grid">
+        <!-- Fixed Price -->
+        <div class="engagement-card reveal">
+          <div class="engagement-card-icon">📌</div>
+          <h3>Fixed Price</h3>
+          <p class="card-tagline">Defined Scope & Milestone Delivery</p>
+          <ul>
+            <li>Agreed scope with structured change control</li>
+            <li>Milestone-based payments & billing</li>
+            <li>Risk shared between both parties</li>
+            <li>Detailed SOW, timeline & RACI upfront</li>
+          </ul>
+          <div class="best-for">★ Best for: Implementations & Upgrades</div>
+        </div>
+
+        <!-- Time & Materials -->
+        <div class="engagement-card reveal reveal-delay-1">
+          <div class="engagement-card-icon">⏱️</div>
+          <h3>Time & Materials</h3>
+          <p class="card-tagline">Flexible Resourcing to Evolving Needs</p>
+          <ul>
+            <li>Named resources aligned to client team</li>
+            <li>Flexible scope & priority management</li>
+            <li>Weekly timesheets & monthly billing</li>
+            <li>Easy ramp up / ramp down on demand</li>
+          </ul>
+          <div class="best-for">★ Best for: AMS, advisory & BAU support</div>
+        </div>
+
+        <!-- Managed Services -->
+        <div class="engagement-card reveal reveal-delay-2">
+          <div class="engagement-card-icon">🔄</div>
+          <h3>Managed Services</h3>
+          <p class="card-tagline">SLA-Backed, Outcome-Focused Operations</p>
+          <ul>
+            <li>Monthly retainer with defined SLAs</li>
+            <li>Dedicated pod: Lead consultant + specialists</li>
+            <li>Proactive monitoring & optimisation</li>
+            <li>Monthly reporting & quarterly QBR</li>
+          </ul>
+          <div class="best-for">★ Best for: Run & operate engagements</div>
+        </div>
+      </div>
+
+      <!-- Global Delivery Model -->
+      <div class="section-header">
+        <h3 class="section-title reveal" style="font-size: clamp(1.5rem, 1rem + 2vw, 2rem);">Global Delivery Model</h3>
+      </div>
+
+      <div class="delivery-grid">
+        <div class="delivery-card reveal">
+          <div class="delivery-card-flag">🇮🇳</div>
+          <h3>Offshore — India</h3>
+          <p>Primary hub · Kochi, India<br>Senior specialists · 24×7 coverage<br>Cost-efficient delivery</p>
+        </div>
+
+        <div class="delivery-card reveal reveal-delay-1">
+          <div class="delivery-card-flag">🌐</div>
+          <h3>Remote — Global</h3>
+          <p>Client time-zone aligned teams<br>Flexible hours · Agile delivery<br>Multi-geography support</p>
+        </div>
+
+        <div class="delivery-card reveal reveal-delay-2">
+          <div class="delivery-card-flag">🤝</div>
+          <h3>Onsite — Client</h3>
+          <p>Key workshops & go-live<br>Executive advisory presence<br>Change management support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- CONTACT SECTION                         -->
+  <!-- ═══════════════════════════════════════ -->
+  <section class="service-detail" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Get in Touch</span>
+        <h2 class="section-title reveal reveal-delay-1">Let's Start a Conversation</h2>
+        <p class="section-subtitle reveal reveal-delay-2">Wisdom Collectives is looking to collaborate with you to deliver specialised SAP Security, GRC, and Amazon Connect services.</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item reveal">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <h4>Registered Address</h4>
+              <p>Valamkottil Towers, Kakkanad<br>Kochi, Kerala – 682030, India</p>
+            </div>
+          </div>
+
+          <div class="contact-item reveal reveal-delay-1">
+            <div class="contact-item-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+919946275953">+91 99462 75953</a>
+            </div>
+          </div>
+
+          <div class="contact-item reveal reveal-delay-2">
+            <div class="contact-item-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:info@wisco.co.in">info@wisco.co.in</a>
+            </div>
+          </div>
+
+          <div class="contact-item reveal reveal-delay-3">
+            <div class="contact-item-icon">🌐</div>
+            <div>
+              <h4>Website</h4>
+              <a href="https://www.wisco.co.in" target="_blank" rel="noopener">www.wisco.co.in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-cta-card reveal reveal-delay-1">
+          <h3>Ready to Transform Your Enterprise?</h3>
+          <p>Whether you need SAP security expertise, GRC implementation, compliance advisory, or a cloud contact centre — our team is ready to help.</p>
+          <a href="mailto:info@wisco.co.in" class="btn-primary">Send Us an Email →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- FOOTER                                  -->
+  <!-- ═══════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="upload/wisco-logo-transparent.png" alt="Wisdom Collectives Logo" width="120" height="50">
+          <span class="footer-brand-text">Wisdom Collectives LLP</span>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#engagement">Engagement Model</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="current-year">2025</span> Wisdom Collectives LLP · Registered in India · All Rights Reserved</p>
+        <ul class="footer-bottom-links">
+          <li><a href="mailto:info@wisco.co.in">info@wisco.co.in</a></li>
+          <li><a href="tel:+919946275953">+91 99462 75953</a></li>
+        </ul>
+      </div>
     </div>
   </footer>
+
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </body>
 </html>
